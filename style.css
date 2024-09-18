@@ -1,0 +1,123 @@
+/*Site Todo*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+
+/*Header*/
+header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+header img{
+    padding-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header ul{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    
+}
+header li{
+    padding-right: 50px;
+}
+.login{
+    align-items: center;
+    padding-left: 280px;
+    display: flex;
+
+}
+.login button{
+    margin-left: 10px;
+    width: 180px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+/*Banner*/
+.banner{  
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-image: url(Banner.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-size: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 57%;
+    color: white;
+}
+
+
+/*Mais Vendidos*/
+.MV_title{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+.MV_title i{
+    display: flex;
+    align-items: center;
+    color: #BD0000;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.Pizza_Grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 250px;
+    margin-top: 20px;
+    height: 30vh;
+}
+.Pizza_Grid div{
+    text-align: center;
+}
+.Pizza_Grid img{
+    margin-bottom: 20px;
+}
+.Pizza_Grid h3{
+    color: #BD0000;
+}   
+hr{
+    margin:11vh 20px 50px 20px;
+    border-color: #BD0000;
+    border-style:groove;
+}
+/*Rodapé*/
+
+footer{
+    height: 600px;
+    background-color: rgb(35, 31, 32);
+}
+.info{
+  
+    color: white;
+    padding: 100px;
+    padding-top: 50px;
+    text-align: justify;
+
+}
+.hr_footer{
+    margin-top: -35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color:rgb(60, 56, 57);
+    border-style:groove;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px;
+}

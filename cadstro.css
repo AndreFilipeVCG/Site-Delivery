@@ -1,0 +1,91 @@
+/*Site Todo*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+
+/*Header*/
+header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+   
+}
+header img{
+    padding-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header ul{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    
+}
+header li{
+    padding-right: 50px;
+}
+.login{
+    align-items: center;
+    padding-left: 280px;
+    display: flex;
+
+}
+.login button{
+    margin-left: 10px;
+    width: 150px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+
+hr{
+    
+    border-color: #BD0000;
+    border-style:groove;
+}
+
+/*formulário*/
+
+.formulario{
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    border-radius: 16px;
+    color: white;
+ 
+    padding: 50px;
+    
+}
+.formulario h2{
+    color: #BD0000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.formulario input{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 11px;
+}
+.formulario button{
+    margin-top: 40px;
+    margin-left: 75px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 9px;
+    width:150px;
+    height: 40px;
+
+
+}

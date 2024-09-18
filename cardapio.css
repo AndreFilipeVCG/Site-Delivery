@@ -1,0 +1,78 @@
+/*Site Todo*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+
+/*Header*/
+header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+header img{
+    padding-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header ul{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    
+}
+header li{
+    padding-right: 50px;
+}
+.login{
+    align-items: center;
+    padding-left: 280px;
+    display: flex;
+
+}
+.login button{
+    margin-left: 10px;
+    width: 150px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+hr{
+    
+    border-color: #BD0000;
+    border-style:groove;
+}
+/*Cardápio*/
+.title{
+    padding-top: 20px;
+    color: #BD0000;
+    text-align: center;
+    font-size: 60px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 82px 270px 270px 270px;
+   text-align: center;
+}
+
+
+.pizza{
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+}
+.pizza i{
+    color: #BD0000;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.grid img{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}

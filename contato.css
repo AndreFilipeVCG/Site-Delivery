@@ -1,0 +1,81 @@
+/*Site Todo*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+
+/*Header*/
+header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+header img{
+    padding-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header ul{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    
+}
+header li{
+    padding-right: 50px;
+}
+.login{
+    align-items: center;
+    padding-left: 280px;
+    display: flex;
+
+}
+.login button{
+    margin-left: 10px;
+    width: 150px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+hr{
+    
+    border-color: #BD0000;
+    border-style:groove;
+}
+/*Conteudo*/
+h1{
+    padding-top: 20px;
+    color: #BD0000;
+    text-align: center;
+    font-size: 60px;
+}
+.content{
+    display: flex;
+}
+.text{
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.text input{
+    width: 500px;
+    border-radius: 14px;
+}
+.email{
+    margin-bottom: 20px;
+    height: 40px;
+}
+.nome{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.mensagem{
+    height: 120px;
+
+}

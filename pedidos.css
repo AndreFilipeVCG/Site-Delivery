@@ -1,0 +1,85 @@
+/*Site Todo*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+
+/*Header*/
+header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+header img{
+    padding-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header ul{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    
+}
+header li{
+    padding-right: 50px;
+}
+.login{
+    align-items: center;
+    padding-left: 280px;
+    display: flex;
+
+}
+.login button{
+    margin-left: 10px;
+    width: 150px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+hr{
+    
+    border-color: #BD0000;
+    border-style:groove;
+}
+/*Pedidos*/
+.title{
+    padding-top: 20px;
+    color: #BD0000;
+    text-align: center;
+    font-size: 60px;
+}
+.pedidos{
+    background-color: #BD0000;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 14px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    
+}
+.pedidos img{
+    width: 200px;
+    height: 200px;
+    justify-content: left;
+    margin-left: 50px;
+}
+.pedidos h2{
+    color: white;
+    margin-left: 100px;
+}
+.pedidos button{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+    width: 250px;
+    height: 50px;
+    margin-left: 120px;
+}
